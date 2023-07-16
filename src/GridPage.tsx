@@ -80,9 +80,11 @@ function GridPage() {
   }, []);
 
   const { data: owlData } = useQuery<OwlData>({ queryKey: ["owl2"] });
+  const { data: seasonData } = useQuery<OwlData>({ queryKey: ["owl2"] });
 
   useEffect(() => {
     if (owlData && owlData?.teams && !rows && !cols) {
+      console.log(owlData);
       const teamsData: TeamsObject = owlData?.teams;
       const teamInfo = Object.values(teamsData);
 
@@ -163,7 +165,7 @@ function GridPage() {
                     </div>
                   ))}
                 </div>
-                <div className="rounded-xl  dark:border-gray-950 grid grid-cols-3 overflow-hidden gap-1">
+                <div className="rounded-xl  dark:border-gray-950 grid grid-cols-3 grid-rows-3 overflow-hidden gap-1">
                   {squares.map((val) => (
                     <button
                       className="border-r border-b hover:bg-gray-100 dark:hover:bg-gray-700 cursor-pointer flex items-center justify-center w-24 sm:w-36 md:w-48 h-24 sm:h-36 md:h-48 transition-colors duration-75 overflow-hidden dark:border-gray-950 focus-visible:outline focus-visible:outline-2 focus-visible:outline-[#59d185] focus-visible:z-50"
