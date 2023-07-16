@@ -84,7 +84,7 @@ function App() {
   }, [accessToken]);
 
   useEffect(() => {
-    if (owlData && owlData?.teams) {
+    if (owlData && owlData?.teams && !rows && !cols) {
       const teamsData: TeamsObject = owlData?.teams;
       const teamIds = Object.keys(teamsData);
 
@@ -115,7 +115,7 @@ function App() {
     <div role="status">
       <svg
         aria-hidden="true"
-        className="w-14 h-14 mr-2 text-gray-200 animate-spin dark:text-gray-600 fill-blue-600"
+        className="w-14 h-14 mr-2 text-gray-200 animate-spin dark:text-gray-600 fill-owl-orange"
         viewBox="0 0 100 101"
         fill="none"
         xmlns="http://www.w3.org/2000/svg"
@@ -191,6 +191,10 @@ function App() {
             </div>
           </div>
         )}
+      </div>
+      <div className="flex items-center justify-center m-4 p-4 w-full md:w-1/2">
+        <input type="text" className="w-full rounded-l-lg h-12 px-2" />
+        <button className="bg-owl-orange rounded-r-lg h-12 ">Guess</button>
       </div>
     </div>
   );
