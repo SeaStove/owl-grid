@@ -131,8 +131,8 @@ function GridPage() {
   );
 
   return (
-    <div className="w-screen h-full flex justify-center items-center  text-white flex-col pr-4">
-      <h1 className="w-full text-center  text-owl-orange mt-3 text-8xl bebas">
+    <div className="w-screen h-full min-h-screen flex justify-center items-center  text-white flex-col pr-4">
+      <h1 className="w-full text-center  text-owl-orange mt-3 text-8xl md:text-9xl bebas">
         OWL GRID
       </h1>
       <div className="mt-4 flex-shrink-0 flex-grow flex-col items-center justify-center flex">
@@ -188,18 +188,18 @@ function GridPage() {
       </div>
       {gridSelected && rows && cols && (
         <div
-          className="fixed inset-0 bg-gray-300 dark:bg-slate-600 dark:bg-opacity-50 bg-opacity-50 overflow-y-auto h-full w-full"
+          className="fixed inset-0 bg-gray-300 dark:bg-slate-600 dark:bg-opacity-50 bg-opacity-50 overflow-y-auto h-full w-full p-2"
           onClick={() => {
             setGridSelected(null);
           }}
         >
           <div
-            className="relative top-20 mx-auto p-5 drop-shadow w-96 shadow-lg rounded-md bg-white dark:bg-slate-800"
+            className="relative top-20 mx-auto p-5 drop-shadow sm:w-96 shadow-lg rounded-md bg-white dark:bg-slate-800"
             onClick={(e) => {
               e.stopPropagation();
             }}
           >
-            <div className="mt-3 text-center">
+            <div className="mt-3 text-center p-4">
               <div className="text-2xl font-bold">Who ya got?</div>
               <div className="text-gray-500">
                 {rows[gridSelected[0]].name} - {cols[gridSelected[1]].name}
@@ -214,6 +214,20 @@ function GridPage() {
           </div>
         </div>
       )}
+      <span className="text-gray-500 fixed bottom-1 hidden sm:block">
+        This page was made using{" "}
+        <a
+          href="https://develop.battle.net/documentation/owl/community-apis"
+          target="_blank"
+        >
+          the Overwatch League Community API.
+        </a>{" "}
+        Check out the code on{" "}
+        <a href="https://github.com/SeaStove/owl-grid" target="_blank">
+          GitHub
+        </a>
+        .
+      </span>
     </div>
   );
 }
