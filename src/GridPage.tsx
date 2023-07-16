@@ -121,9 +121,18 @@ function GridPage() {
     </div>
   );
 
+  const GuessBlock = () => (
+    <div>
+      <div className="text-xs font-semibold text-gray-600 dark:text-gray-300 uppercase text-center">
+        Total Guesses
+      </div>
+      <div className="text-center text-7xl font-semibold">{count}</div>
+    </div>
+  );
+
   return (
-    <div className="w-screen h-screen flex justify-center items-center bg-owl-gray text-white flex-col">
-      <h1 className="w-full text-center  text-owl-orange mt-3 text-8xl">
+    <div className="w-screen h-full flex justify-center items-center  text-white flex-col pr-4">
+      <h1 className="w-full text-center  text-owl-orange mt-3 text-8xl bebas">
         OWL GRID
       </h1>
       <div className="mt-4 flex-shrink-0 flex-grow flex-col items-center justify-center flex">
@@ -132,7 +141,7 @@ function GridPage() {
         ) : (
           <div className="flex-grow flex items-center justify-center mt-4">
             <div>
-              <div className="flex">
+              <div className="flex justify-evenly sm:justify-start">
                 <div className="owl-logo w-20 sm:w-36 md:w-48 flex justify-center items-center"></div>
                 {Object.values(cols ?? {}).map((teamData) => (
                   <div
@@ -166,22 +175,17 @@ function GridPage() {
                     />
                   ))}
                 </div>
-                <div className="sm:w-36 md:w-48 h-full flex justify-center">
-                  <div>
-                    <div className="text-xs font-semibold text-gray-600 dark:text-gray-300 uppercase text-center">
-                      Total Guesses
-                    </div>
-                    <div className="text-center text-7xl font-semibold">
-                      {count}
-                    </div>
-                  </div>
+                <div className="sm:w-36 md:w-48 h-full hidden justify-center sm:flex">
+                  <GuessBlock />
                 </div>
+              </div>
+              <div className="sm:w-36 md:w-48 h-full mt-4 flex justify-center sm:hidden">
+                <GuessBlock />
               </div>
             </div>
           </div>
         )}
       </div>
-
       {gridSelected && rows && cols && (
         <div
           className="fixed inset-0 bg-gray-300 dark:bg-slate-600 dark:bg-opacity-50 bg-opacity-50 overflow-y-auto h-full w-full"
