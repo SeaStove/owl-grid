@@ -251,7 +251,11 @@ function GridPage() {
                 - {cols[gridSelected[1]].name}
               </div>
               <div className="flex items-center justify-centerw-full mt-4">
-                <input type="text" className="w-full rounded-l-lg h-12 px-2" />
+                <input
+                  autoFocus
+                  type="text"
+                  className="w-full rounded-l-lg h-12 px-2"
+                />
                 <button className="bg-owl-orange rounded-r-lg h-12 ">
                   Guess
                 </button>
