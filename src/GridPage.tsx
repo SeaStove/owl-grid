@@ -176,7 +176,7 @@ function GridPage() {
   return (
     <div className="w-screen h-full min-h-screen flex justify-center items-center  text-white flex-col pr-4">
       <h1 className="w-full text-center  text-owl-orange mt-3 text-8xl md:text-9xl bebas">
-        OWL GRID
+        OWLdle
       </h1>
       <div className="mt-4 flex-shrink-0 flex-grow flex-col items-center justify-center flex">
         {!cols || !rows ? (
