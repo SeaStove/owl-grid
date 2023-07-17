@@ -1,0 +1,1570 @@
+{
+  "2023-07-17": {
+    "stats": {
+      "graviticFluxKills": 2,
+      "damageBlockedSojurn": 8204,
+      "eliminations": 849
+    },
+    "teams": [17762, 15308, 15234]
+  },
+  "2023-07-18": {
+    "stats": {
+      "pulseBombsAttached": 50,
+      "finalBlows": 293,
+      "timePlayed": 25864
+    },
+    "teams": [15270, 17781, 17781]
+  },
+  "2023-07-19": {
+    "stats": {
+      "timePlayed": 19406,
+      "ultsUsed": 97,
+      "shotsHit": 21724
+    },
+    "teams": [15233, 15287, 17791]
+  },
+  "2023-07-20": {
+    "stats": {
+      "scopedCriticalHitKills": 4,
+      "scopedHits": 826,
+      "soloKills": 28
+    },
+    "teams": [15308, 15287, 17791]
+  },
+  "2023-07-21": {
+    "stats": {
+      "scopedHits": 1755,
+      "dragonstrikeKills": 17,
+      "kunaiKills": 8
+    },
+    "teams": [17762, 15217, 15287]
+  },
+  "2023-07-22": {
+    "stats": {
+      "undefined": null
+    },
+    "teams": [15217, 15217, "unknownTeam"]
+  },
+  "2023-07-23": {
+    "stats": {
+      "enemiesHacked": 42,
+      "kunaiKills": 8,
+      "heroDamageDone": 152702
+    },
+    "teams": [17792, 15219, 15287]
+  },
+  "2023-07-24": {
+    "stats": {
+      "knockbackKills": 113,
+      "scopedHits": 972,
+      "overhealthProvided": 16962
+    },
+    "teams": [15173, 15252, 17771]
+  },
+  "2023-07-25": {
+    "stats": {
+      "immortalityFieldDeathsPrevented": 11,
+      "pulseBombKills": 20,
+      "finalBlows": 191
+    },
+    "teams": [17791, 15170, 15206]
+  },
+  "2023-07-26": {
+    "stats": {
+      "heroDamageDone": 534064,
+      "bobKills": 2,
+      "primalRageKills": 12
+    },
+    "teams": [15173, 15233, 15188]
+  },
+  "2023-07-27": {
+    "stats": {
+      "pulseBombKills": 20,
+      "primalRageKills": 25,
+      "coalescenseHealing": 78
+    },
+    "teams": [15165, 15170, 15270]
+  },
+  "2023-07-28": {
+    "stats": {
+      "bobKills": 2,
+      "focusingBeamKills": 25,
+      "amplificationMatrixAssists": 5
+    },
+    "teams": [15270, 15188, 15341]
+  },
+  "2023-07-29": {
+    "stats": {
+      "energyMax": 5500,
+      "amplificationMatrixAssists": 16,
+      "finalBlows": 257
+    },
+    "teams": [15263, 17763, 15217]
+  },
+  "2023-07-30": {
+    "stats": {
+      "soloKills": 28,
+      "enemiesHacked": 91,
+      "graviticFluxKills": 2
+    },
+    "teams": [17791, 15206, 15234]
+  },
+  "2023-07-31": {
+    "stats": {
+      "kunaiKills": 7,
+      "timePlayed": 19406,
+      "damageDiscordOrb": 1065
+    },
+    "teams": [17781, 15270, 17791]
+  },
+  "2023-08-01": {
+    "stats": {
+      "focusingBeamKills": 6,
+      "primalRageKills": 55,
+      "kitsuneRushAssists": 43
+    },
+    "teams": [15217, 17763, 15217]
+  },
+  "2023-08-02": {
+    "stats": {
+      "overclockKills": 6,
+      "eliminations": 220,
+      "ultsUsed": 90
+    },
+    "teams": [17792, 17762, 15170]
+  },
+  "2023-08-03": {
+    "stats": {
+      "enemiesEMPd": 251,
+      "dragonstrikeKills": 14,
+      "deaths": 438
+    },
+    "teams": [15341, 15219, 15219]
+  },
+  "2023-08-04": {
+    "stats": {
+      "abilityDamageDone": 1246,
+      "enemiesFrozen": 11,
+      "deathBlossomKills": 3
+    },
+    "teams": [15188, 15173, 15217]
+  },
+  "2023-08-05": {
+    "stats": {
+      "pulseBombKills": 22,
+      "scopedCriticalHitKills": 4,
+      "criticalHits": 1926
+    },
+    "teams": [15201, 17791, 15233]
+  },
+  "2023-08-06": {
+    "stats": {
+      "kunaiKills": 134,
+      "stickyBombsKills": 2,
+      "damageBlockedSojurn": 28950
+    },
+    "teams": [15206, 15170, 15234]
+  },
+  "2023-08-07": {
+    "stats": {
+      "coalescenseHealing": 125,
+      "bioticGrenadeKills": 113,
+      "energyMax": 5500
+    },
+    "teams": [15270, 15270, 17763]
+  },
+  "2023-08-08": {
+    "stats": {
+      "immortalityFieldDeathsPrevented": 11,
+      "stormArrowKills": 29,
+      "timePlayed": 19406
+    },
+    "teams": [17791, 15287, 15234]
+  },
+  "2023-08-09": {
+    "stats": {
+      "bioticGrenadeKills": 17,
+      "scopedCriticalHits": 19,
+      "ultsEarned": 346
+    },
+    "teams": [15170, 15341, 15165]
+  },
+  "2023-08-10": {
+    "stats": {
+      "immortalityFieldDeathsPrevented": 21,
+      "scopedHits": 1462,
+      "scopedCriticalHitKills": 1
+    },
+    "teams": [15206, 15270, 17763]
+  },
+  "2023-08-11": {
+    "stats": {
+      "amplificationMatrixAssists": 14,
+      "enemiesHacked": 476,
+      "enemiesEMPd": 194
+    },
+    "teams": [15308, 15252, 15263]
+  },
+  "2023-08-12": {
+    "stats": {
+      "shotsHit": 39355,
+      "stormArrowKills": 32,
+      "deathBlossomKills": 2
+    },
+    "teams": [15188, 17762, 17781]
+  },
+  "2023-08-13": {
+    "stats": {
+      "jaggedBladeKills": 11,
+      "damageDiscordOrb": 1065,
+      "criticalHits": 1926
+    },
+    "teams": [17762, 17791, 15173]
+  },
+  "2023-08-14": {
+    "stats": {
+      "playersTeleported": 119,
+      "pulseBombsAttached": 50,
+      "damageTaken": 534265
+    },
+    "teams": [15270, 15165, 17771]
+  },
+  "2023-08-15": {
+    "stats": {
+      "inspireUptime": 3013,
+      "kitsuneRushAssists": 248,
+      "timePlayed": 45392
+    },
+    "teams": [15308, 15219, 15234]
+  },
+  "2023-08-16": {
+    "stats": {
+      "damageDiscordOrb": 1658,
+      "abilityDamageDone": 1508,
+      "stickyBombsKills": 6
+    },
+    "teams": [15206, 15219, 15263]
+  },
+  "2023-08-17": {
+    "stats": {
+      "coalescenseHealing": 125,
+      "chargedShotKills": 191,
+      "damageBlockedSojurn": 994
+    },
+    "teams": [15219, 17763, 15173]
+  },
+  "2023-08-18": {
+    "stats": {
+      "ultsEarned": 145,
+      "timePlayed": 20066,
+      "playersKnockedBack": 6
+    },
+    "teams": [15308, 15287, 17771]
+  },
+  "2023-08-19": {
+    "stats": {
+      "jumpPackKills": 368,
+      "ultsUsed": 373,
+      "inspireUptime": 9661
+    },
+    "teams": [15287, 15201, 15341]
+  },
+  "2023-08-20": {
+    "stats": {
+      "earthshatterStuns": 2,
+      "amplificationMatrixAssists": 2,
+      "blizzardKills": 2
+    },
+    "teams": [17771, 15263, 15234]
+  },
+  "2023-08-21": {
+    "stats": {
+      "primalRageKills": 4,
+      "ultsUsed": 367,
+      "selfdestructKills": 2
+    },
+    "teams": [15247, 15206, 15204]
+  },
+  "2023-08-22": {
+    "stats": {
+      "scopedCriticalHits": 21,
+      "finalBlows": 487,
+      "enemiesSlept": 55
+    },
+    "teams": [15263, 15270, 15247]
+  },
+  "2023-08-23": {
+    "stats": {
+      "undefined": null
+    },
+    "teams": ["unknownTeam", 15234, 15204]
+  },
+  "2023-08-24": {
+    "stats": {
+      "pulseBombKills": 47,
+      "stormArrowKills": 58,
+      "scopedCriticalHitKills": 26
+    },
+    "teams": [15270, 15233, 15270]
+  },
+  "2023-08-25": {
+    "stats": {
+      "primalRageKills": 12,
+      "finalBlows": 191,
+      "dragonbladeKills": 1
+    },
+    "teams": [17791, 15263, 15170]
+  },
+  "2023-08-26": {
+    "stats": {
+      "playersTeleported": 102,
+      "helixRocketKills": 8,
+      "bioticGrenadeKills": 22
+    },
+    "teams": [17791, 17762, 15173]
+  },
+  "2023-08-27": {
+    "stats": {
+      "pulseBombKills": 61,
+      "timeSpentOnFire": 2444,
+      "criticalHits": 5830
+    },
+    "teams": [15308, 15263, 15247]
+  },
+  "2023-08-28": {
+    "stats": {
+      "heroDamageDone": 308225,
+      "overclockKills": 9,
+      "enemiesHacked": 91
+    },
+    "teams": [15234, 17791, 15270]
+  },
+  "2023-08-29": {
+    "stats": {
+      "finalBlows": 666,
+      "playersResurrected": 1,
+      "bioticGrenadeKills": 203
+    },
+    "teams": [15201, 15201, 15269]
+  },
+  "2023-08-30": {
+    "stats": {
+      "undefined": null
+    },
+    "teams": [15341, "unknownTeam", 15170]
+  },
+  "2023-08-31": {
+    "stats": {
+      "bioticGrenadeKills": 118,
+      "stormArrowKills": 85,
+      "scopedCriticalHitKills": 19
+    },
+    "teams": [15287, 15217, 15269]
+  },
+  "2023-09-01": {
+    "stats": {
+      "healingDone": 759875,
+      "eliminations": 1239,
+      "dragonstrikeKills": 14
+    },
+    "teams": [15219, 15341, 15234]
+  },
+  "2023-09-02": {
+    "stats": {
+      "healingDone": 275319,
+      "ultsUsed": 97,
+      "pulseBombKills": 22
+    },
+    "teams": [15165, 15287, 17791]
+  },
+  "2023-09-03": {
+    "stats": {
+      "undefined": null
+    },
+    "teams": [15263, 17792, "unknownTeam"]
+  },
+  "2023-09-04": {
+    "stats": {
+      "undefined": null
+    },
+    "teams": ["unknownTeam", 17762, 15233]
+  },
+  "2023-09-05": {
+    "stats": {
+      "undefined": null
+    },
+    "teams": [17792, 15270, "unknownTeam"]
+  },
+  "2023-09-06": {
+    "stats": {
+      "undefined": null
+    },
+    "teams": [17792, 15219, "unknownTeam"]
+  },
+  "2023-09-07": {
+    "stats": {
+      "timePlayed": 11136,
+      "knockbackKills": 55,
+      "ultsEarned": 97
+    },
+    "teams": [15206, 15263, 17792]
+  },
+  "2023-09-08": {
+    "stats": {
+      "deaths": 200,
+      "criticalHits": 2145,
+      "shotsHit": 33656
+    },
+    "teams": [17763, 15269, 15201]
+  },
+  "2023-09-09": {
+    "stats": {
+      "negativeEffectsCleansed": 9,
+      "dragonstrikeKills": 7,
+      "chargedShotKills": 24
+    },
+    "teams": [15270, 17791, 15341]
+  },
+  "2023-09-10": {
+    "stats": {
+      "scopedHits": 1462,
+      "inspireUptime": 3939,
+      "stickyBombsKills": 8
+    },
+    "teams": [15206, 17763, 15269]
+  },
+  "2023-09-11": {
+    "stats": {
+      "undefined": null
+    },
+    "teams": [17781, 15219, "unknownTeam"]
+  },
+  "2023-09-12": {
+    "stats": {
+      "pulseBombKills": 20,
+      "primalRageKills": 12,
+      "knockbackKills": 257
+    },
+    "teams": [17763, 15341, 15173]
+  },
+  "2023-09-13": {
+    "stats": {
+      "scopedHits": 4275,
+      "knockbackKills": 466,
+      "deathBlossomKills": 3
+    },
+    "teams": [15233, 15341, 15165]
+  },
+  "2023-09-14": {
+    "stats": {
+      "enemiesHacked": 287,
+      "criticalHits": 3610,
+      "inspireUptime": 3688
+    },
+    "teams": [17771, 17762, 15234]
+  },
+  "2023-09-15": {
+    "stats": {
+      "shotsHit": 33656,
+      "playersTeleported": 56,
+      "bioticGrenadeKills": 113
+    },
+    "teams": [15263, 17781, 17763]
+  },
+  "2023-09-16": {
+    "stats": {
+      "timeSpentOnFire": 2250,
+      "deaths": 532,
+      "primalRageKills": 12
+    },
+    "teams": [15173, 15206, 15201]
+  },
+  "2023-09-17": {
+    "stats": {
+      "soloKills": 45,
+      "accretionKills": 8,
+      "knockbackKills": 366
+    },
+    "teams": [15252, 15308, 15165]
+  },
+  "2023-09-18": {
+    "stats": {
+      "damageAmplified": 6508,
+      "kitsuneRushAssists": 82,
+      "eliminations": 220
+    },
+    "teams": [17791, 17792, 15204]
+  },
+  "2023-09-19": {
+    "stats": {
+      "timeSpentOnFire": 1798,
+      "ultimatesNegated": 1,
+      "deaths": 170
+    },
+    "teams": [15247, 17791, 17791]
+  },
+  "2023-09-20": {
+    "stats": {
+      "undefined": null
+    },
+    "teams": [15233, 15287, "unknownTeam"]
+  },
+  "2023-09-21": {
+    "stats": {
+      "shotsHit": 64471,
+      "primalRageKills": 12,
+      "soloKills": 52
+    },
+    "teams": [15165, 15234, 15173]
+  },
+  "2023-09-22": {
+    "stats": {
+      "knockbackKills": 55,
+      "bobKills": 2,
+      "bioticGrenadeKills": 23
+    },
+    "teams": [17792, 15270, 15188]
+  },
+  "2023-09-23": {
+    "stats": {
+      "amplificationMatrixAssists": 2,
+      "pulseBombsAttached": 60,
+      "scopedHits": 972
+    },
+    "teams": [17771, 15204, 15201]
+  },
+  "2023-09-24": {
+    "stats": {
+      "healingDone": 191851,
+      "pulseBombKills": 22,
+      "bioticGrenadeKills": 22
+    },
+    "teams": [17781, 17792, 17791]
+  },
+  "2023-09-25": {
+    "stats": {
+      "pulseBombsAttached": 40,
+      "kunaiKills": 35,
+      "healingDone": 482230
+    },
+    "teams": [17762, 15263, 15206]
+  },
+  "2023-09-26": {
+    "stats": {
+      "undefined": null
+    },
+    "teams": [17792, "unknownTeam", 15287]
+  },
+  "2023-09-27": {
+    "stats": {
+      "overhealthProvided": 1215,
+      "criticalHits": 1926,
+      "ultsEarned": 105
+    },
+    "teams": [15234, 15188, 17791]
+  },
+  "2023-09-28": {
+    "stats": {
+      "shotsHit": 76014,
+      "damageBlockedSojurn": 6082,
+      "playersResurrected": 1
+    },
+    "teams": [15270, 15247, 15204]
+  },
+  "2023-09-29": {
+    "stats": {
+      "damageBlockedSojurn": 994,
+      "immortalityFieldDeathsPrevented": 1,
+      "primalRageKills": 40
+    },
+    "teams": [15252, 17771, 15219]
+  },
+  "2023-09-30": {
+    "stats": {
+      "ultsEarned": 427,
+      "enemiesEMPd": 323,
+      "graviticFluxKills": 9
+    },
+    "teams": [15252, 15165, 15252]
+  },
+  "2023-10-01": {
+    "stats": {
+      "graviticFluxKills": 2,
+      "blizzardKills": 13,
+      "chargedShotKills": 120
+    },
+    "teams": [15234, 15270, 15217]
+  },
+  "2023-10-02": {
+    "stats": {
+      "undefined": null
+    },
+    "teams": [15219, 15165, "unknownTeam"]
+  },
+  "2023-10-03": {
+    "stats": {
+      "stickyBombsKills": 6,
+      "playersTeleported": 119,
+      "ultsEarned": 293
+    },
+    "teams": [15270, 15263, 15206]
+  },
+  "2023-10-04": {
+    "stats": {
+      "scopedHits": 1443,
+      "bioticGrenadeKills": 115,
+      "damageTaken": 345136
+    },
+    "teams": [15263, 15252, 17781]
+  },
+  "2023-10-05": {
+    "stats": {
+      "stormArrowKills": 75,
+      "lifetimeEnergyAccumulation": 1648,
+      "playersTeleported": 181
+    },
+    "teams": [17762, 15219, 15219]
+  },
+  "2023-10-06": {
+    "stats": {
+      "negativeEffectsCleansed": 37,
+      "timeSpentOnFire": 2444,
+      "enemiesSlept": 55
+    },
+    "teams": [15247, 15308, 15234]
+  },
+  "2023-10-07": {
+    "stats": {
+      "shotsHit": 39355,
+      "kitsuneRushAssists": 124,
+      "knockbackKills": 316
+    },
+    "teams": [17762, 15308, 15204]
+  },
+  "2023-10-08": {
+    "stats": {
+      "scopedCriticalHitKills": 4,
+      "amplificationMatrixAssists": 5,
+      "pulseBombKills": 69
+    },
+    "teams": [15287, 17781, 15341]
+  },
+  "2023-10-09": {
+    "stats": {
+      "negativeEffectsCleansed": 16,
+      "inspireUptime": 3804,
+      "enemiesEMPd": 16
+    },
+    "teams": [15263, 15308, 15287]
+  },
+  "2023-10-10": {
+    "stats": {
+      "pulseBombKills": 67,
+      "primalRageKills": 27,
+      "negativeEffectsCleansed": 9
+    },
+    "teams": [15263, 15233, 15341]
+  },
+  "2023-10-11": {
+    "stats": {
+      "pulseBombsAttached": 61,
+      "soloKills": 30,
+      "damageDiscordOrb": 51
+    },
+    "teams": [15269, 17781, 15233]
+  },
+  "2023-10-12": {
+    "stats": {
+      "carnageKills": 16,
+      "timeSpentOnFire": 4055,
+      "jumpPackKills": 99
+    },
+    "teams": [15234, 15219, 15263]
+  },
+  "2023-10-13": {
+    "stats": {
+      "stormArrowKills": 75,
+      "enemiesSlept": 167,
+      "bioticGrenadeKills": 177
+    },
+    "teams": [15233, 17762, 15234]
+  },
+  "2023-10-14": {
+    "stats": {
+      "pulseBombKills": 69,
+      "focusingBeamKills": 28,
+      "primalRageKills": 33
+    },
+    "teams": [15165, 15287, 17781]
+  },
+  "2023-10-15": {
+    "stats": {
+      "shotsHit": 39355,
+      "knockbackKills": 316,
+      "overclockKills": 1
+    },
+    "teams": [15252, 15170, 17762]
+  },
+  "2023-10-16": {
+    "stats": {
+      "bobKills": 1,
+      "overclockKills": 6,
+      "finalBlows": 120
+    },
+    "teams": [15217, 17792, 17763]
+  },
+  "2023-10-17": {
+    "stats": {
+      "immortalityFieldDeathsPrevented": 8,
+      "enemiesEMPd": 68,
+      "abilityDamageDone": 1246
+    },
+    "teams": [15269, 15173, 17792]
+  },
+  "2023-10-18": {
+    "stats": {
+      "ultsEarned": 105,
+      "jaggedBladeKills": 11,
+      "finalBlows": 191
+    },
+    "teams": [17791, 15165, 17791]
+  },
+  "2023-10-19": {
+    "stats": {
+      "energyMax": 5500,
+      "kunaiKills": 20,
+      "timePlayed": 11136
+    },
+    "teams": [17792, 17763, 15217]
+  },
+  "2023-10-20": {
+    "stats": {
+      "criticalHits": 8959,
+      "dragonstrikeKills": 37,
+      "ultsEarned": 469
+    },
+    "teams": [15287, 15270, 15287]
+  },
+  "2023-10-21": {
+    "stats": {
+      "shotsHit": 33656,
+      "bioticGrenadeKills": 113,
+      "primalRageKills": 53
+    },
+    "teams": [15217, 17762, 17763]
+  },
+  "2023-10-22": {
+    "stats": {
+      "amplificationMatrixAssists": 29,
+      "abilityDamageDone": 5650,
+      "timeSpentOnFire": 6492
+    },
+    "teams": [15270, 15165, 15233]
+  },
+  "2023-10-23": {
+    "stats": {
+      "healingDone": 467131,
+      "soloKills": 30,
+      "kunaiKills": 7
+    },
+    "teams": [15234, 15263, 17781]
+  },
+  "2023-10-24": {
+    "stats": {
+      "enemiesFrozen": 21,
+      "pulseBombsAttached": 40,
+      "deaths": 378
+    },
+    "teams": [15233, 15263, 17762]
+  },
+  "2023-10-25": {
+    "stats": {
+      "timePlayed": 11136,
+      "soloKills": 6,
+      "knockbackKills": 55
+    },
+    "teams": [17792, 15287, 17792]
+  },
+  "2023-10-26": {
+    "stats": {
+      "knockbackKills": 257,
+      "pulseBombKills": 20,
+      "kunaiKills": 20
+    },
+    "teams": [15201, 15204, 17763]
+  },
+  "2023-10-27": {
+    "stats": {
+      "overclockKills": 37,
+      "damageAmplified": 16425,
+      "negativeEffectsCleansed": 26
+    },
+    "teams": [15188, 15206, 17763]
+  },
+  "2023-10-28": {
+    "stats": {
+      "enemiesSlept": 109,
+      "blizzardKills": 2,
+      "graviticFluxKills": 2
+    },
+    "teams": [15234, 15234, 17771]
+  },
+  "2023-10-29": {
+    "stats": {
+      "eliminations": 773,
+      "damageDiscordOrb": 2150,
+      "jumpPackKills": 85
+    },
+    "teams": [15170, 15188, 15287]
+  },
+  "2023-10-30": {
+    "stats": {
+      "coalescenseHealing": 3575,
+      "ultsUsed": 392,
+      "damageDiscordOrb": 51
+    },
+    "teams": [15165, 15252, 15269]
+  },
+  "2023-10-31": {
+    "stats": {
+      "kitsuneRushAssists": 144,
+      "deaths": 416,
+      "overhealthProvided": 11999
+    },
+    "teams": [17762, 15247, 15217]
+  },
+  "2023-11-01": {
+    "stats": {
+      "abilityDamageDone": 3019,
+      "deaths": 626,
+      "shotsHit": 102750
+    },
+    "teams": [15270, 15219, 15219]
+  },
+  "2023-11-02": {
+    "stats": {
+      "energyMax": 15400,
+      "soloKills": 76,
+      "stickyBombsKills": 4
+    },
+    "teams": [15173, 15287, 17762]
+  },
+  "2023-11-03": {
+    "stats": {
+      "jumpPackKills": 40,
+      "deaths": 329,
+      "timePlayed": 40020
+    },
+    "teams": [15341, 15173, 15188]
+  },
+  "2023-11-04": {
+    "stats": {
+      "blizzardKills": 2,
+      "amplificationMatrixAssists": 2,
+      "focusingBeamKills": 15
+    },
+    "teams": [17771, 15165, 15270]
+  },
+  "2023-11-05": {
+    "stats": {
+      "dragonstrikeKills": 25,
+      "selfdestructKills": 2,
+      "scopedHits": 381
+    },
+    "teams": [15170, 15173, 15206]
+  },
+  "2023-11-06": {
+    "stats": {
+      "pulseBombKills": 125,
+      "kitsuneRushAssists": 66,
+      "enemiesSlept": 292
+    },
+    "teams": [15252, 15308, 15341]
+  },
+  "2023-11-07": {
+    "stats": {
+      "stickyBombsKills": 8,
+      "bobKills": 1,
+      "criticalHits": 2145
+    },
+    "teams": [17763, 15217, 15341]
+  },
+  "2023-11-08": {
+    "stats": {
+      "kunaiKills": 39,
+      "abilityDamageDone": 6266,
+      "heroDamageDone": 152702
+    },
+    "teams": [17792, 17792, 15270]
+  },
+  "2023-11-09": {
+    "stats": {
+      "stormArrowKills": 16,
+      "primalRageKills": 53,
+      "playersResurrected": 1
+    },
+    "teams": [17762, 15201, 15252]
+  },
+  "2023-11-10": {
+    "stats": {
+      "enemiesHacked": 175,
+      "blizzardKills": 11,
+      "timeSpentOnFire": 4178
+    },
+    "teams": [15247, 15341, 15219]
+  },
+  "2023-11-11": {
+    "stats": {
+      "scopedCriticalHitKills": 22,
+      "damageAmplified": 42421,
+      "soloKills": 45
+    },
+    "teams": [15219, 15308, 15252]
+  },
+  "2023-11-12": {
+    "stats": {
+      "amplificationMatrixAssists": 2,
+      "accretionKills": 4,
+      "inspireUptime": 2954
+    },
+    "teams": [15247, 17771, 15217]
+  },
+  "2023-11-13": {
+    "stats": {
+      "scopedCriticalHitKills": 7,
+      "amplificationMatrixAssists": 21,
+      "accretionKills": 6
+    },
+    "teams": [15170, 15173, 15165]
+  },
+  "2023-11-14": {
+    "stats": {
+      "pulseBombsAttached": 19,
+      "ultsEarned": 105,
+      "shotsHit": 21724
+    },
+    "teams": [15204, 15234, 17791]
+  },
+  "2023-11-15": {
+    "stats": {
+      "finalBlows": 257,
+      "pulseBombKills": 20,
+      "bobKills": 1
+    },
+    "teams": [15269, 17763, 15188]
+  },
+  "2023-11-16": {
+    "stats": {
+      "damageDiscordOrb": 51,
+      "deathBlossomKills": 3,
+      "overhealthProvided": 24796
+    },
+    "teams": [15269, 15341, 15233]
+  },
+  "2023-11-17": {
+    "stats": {
+      "eliminations": 1234,
+      "carnageKills": 13,
+      "immortalityFieldDeathsPrevented": 34
+    },
+    "teams": [15263, 15270, 15165]
+  },
+  "2023-11-18": {
+    "stats": {
+      "undefined": null
+    },
+    "teams": [15206, "unknownTeam", 15173]
+  },
+  "2023-11-19": {
+    "stats": {
+      "enemiesHacked": 310,
+      "ultsUsed": 392,
+      "playersTeleported": 226
+    },
+    "teams": [15206, 15233, 15252]
+  },
+  "2023-11-20": {
+    "stats": {
+      "heroDamageDone": 152702,
+      "stormArrowKills": 23,
+      "enemiesFrozen": 13
+    },
+    "teams": [17792, 15233, 15219]
+  },
+  "2023-11-21": {
+    "stats": {
+      "blizzardKills": 2,
+      "enemiesFrozen": 7,
+      "inspireUptime": 3688
+    },
+    "teams": [17771, 15341, 15165]
+  },
+  "2023-11-22": {
+    "stats": {
+      "overclockKills": 6,
+      "inspireUptime": 1049,
+      "knockbackKills": 55
+    },
+    "teams": [17792, 15219, 15270]
+  },
+  "2023-11-23": {
+    "stats": {
+      "knockbackKills": 316,
+      "selfdestructKills": 1,
+      "overclockKills": 12
+    },
+    "teams": [17762, 15341, 15170]
+  },
+  "2023-11-24": {
+    "stats": {
+      "scopedCriticalHits": 5,
+      "damageAmplified": 19509,
+      "stormArrowKills": 16
+    },
+    "teams": [17763, 15233, 15269]
+  },
+  "2023-11-25": {
+    "stats": {
+      "kunaiKills": 7,
+      "scopedCriticalHitKills": 1,
+      "primalRageKills": 4
+    },
+    "teams": [17763, 17781, 15247]
+  },
+  "2023-11-26": {
+    "stats": {
+      "immortalityFieldDeathsPrevented": 8,
+      "overclockKills": 31,
+      "negativeEffectsCleansed": 64
+    },
+    "teams": [17762, 15247, 15219]
+  },
+  "2023-11-27": {
+    "stats": {
+      "timePlayed": 11136,
+      "playersTeleported": 56,
+      "bioticGrenadeKills": 23
+    },
+    "teams": [17771, 17792, 15201]
+  },
+  "2023-11-28": {
+    "stats": {
+      "playersResurrected": 2,
+      "inspireUptime": 5128,
+      "shotsHit": 58345
+    },
+    "teams": [17781, 15234, 15173]
+  },
+  "2023-11-29": {
+    "stats": {
+      "damageAmplified": 22739,
+      "heroDamageDone": 356711,
+      "kunaiKills": 7
+    },
+    "teams": [15206, 17781, 15263]
+  },
+  "2023-11-30": {
+    "stats": {
+      "deaths": 489,
+      "enemiesFrozen": 92,
+      "pulseBombKills": 61
+    },
+    "teams": [15247, 15269, 15247]
+  },
+  "2023-12-01": {
+    "stats": {
+      "inspireUptime": 5255,
+      "enemiesFrozen": 4,
+      "eliminations": 849
+    },
+    "teams": [15287, 15308, 17762]
+  },
+  "2023-12-02": {
+    "stats": {
+      "pulseBombKills": 20,
+      "amplificationMatrixAssists": 5,
+      "primalRageKills": 25
+    },
+    "teams": [15170, 15204, 15341]
+  },
+  "2023-12-03": {
+    "stats": {
+      "kunaiKills": 25,
+      "playersResurrected": 1,
+      "damageTaken": 1133255
+    },
+    "teams": [15201, 15234, 15233]
+  },
+  "2023-12-04": {
+    "stats": {
+      "damageBlockedSojurn": 2872,
+      "scopedHits": 972,
+      "overhealthProvided": 16271
+    },
+    "teams": [17771, 15341, 15188]
+  },
+  "2023-12-05": {
+    "stats": {
+      "kunaiKills": 25,
+      "earthshatterStuns": 2,
+      "pulseBombKills": 67
+    },
+    "teams": [15233, 15263, 15341]
+  },
+  "2023-12-06": {
+    "stats": {
+      "bioticGrenadeKills": 23,
+      "blizzardKills": 2,
+      "eliminations": 220
+    },
+    "teams": [15341, 17771, 17792]
+  },
+  "2023-12-07": {
+    "stats": {
+      "damageTaken": 1133255,
+      "inspireUptime": 5255,
+      "kunaiKills": 25
+    },
+    "teams": [15234, 15234, 15233]
+  },
+  "2023-12-08": {
+    "stats": {
+      "enemiesEMPd": 63,
+      "shotsHit": 72462,
+      "earthshatterKills": 2
+    },
+    "teams": [15263, 15165, 15247]
+  },
+  "2023-12-09": {
+    "stats": {
+      "stormArrowKills": 4,
+      "eliminations": 1243,
+      "blizzardKills": 4
+    },
+    "teams": [15308, 15206, 15204]
+  },
+  "2023-12-10": {
+    "stats": {
+      "ultsUsed": 254,
+      "damageAmplified": 22615,
+      "focusingBeamKills": 6
+    },
+    "teams": [15217, 15252, 15263]
+  },
+  "2023-12-11": {
+    "stats": {
+      "timePlayed": 11136,
+      "scopedCriticalHits": 22,
+      "enemiesSlept": 27
+    },
+    "teams": [17792, 15206, 15217]
+  },
+  "2023-12-12": {
+    "stats": {
+      "chargedShotKills": 15,
+      "deaths": 116,
+      "bioticGrenadeKills": 17
+    },
+    "teams": [15247, 17792, 15170]
+  },
+  "2023-12-13": {
+    "stats": {
+      "undefined": null
+    },
+    "teams": ["unknownTeam", 17781, 15173]
+  },
+  "2023-12-14": {
+    "stats": {
+      "undefined": null
+    },
+    "teams": [15219, 17791, "unknownTeam"]
+  },
+  "2023-12-15": {
+    "stats": {
+      "enemiesEMPd": 63,
+      "knockbackKills": 272,
+      "primalRageKills": 4
+    },
+    "teams": [15270, 15247, 15219]
+  },
+  "2023-12-16": {
+    "stats": {
+      "kitsuneRushAssists": 66,
+      "scopedCriticalHits": 29,
+      "enemiesFrozen": 10
+    },
+    "teams": [15341, 15247, 17791]
+  },
+  "2023-12-17": {
+    "stats": {
+      "enemiesHacked": 310,
+      "stormArrowKills": 75,
+      "enemiesEMPd": 103
+    },
+    "teams": [15206, 15165, 17762]
+  },
+  "2023-12-18": {
+    "stats": {
+      "undefined": null
+    },
+    "teams": [15287, "unknownTeam", 17791]
+  },
+  "2023-12-19": {
+    "stats": {
+      "pulseBombKills": 125,
+      "inspireUptime": 8953,
+      "bobKills": 2
+    },
+    "teams": [15252, 15173, 15341]
+  },
+  "2023-12-20": {
+    "stats": {
+      "eliminations": 1243,
+      "damageAmplified": 42421,
+      "timePlayed": 51775
+    },
+    "teams": [15165, 15206, 15308]
+  },
+  "2023-12-21": {
+    "stats": {
+      "soloKills": 20,
+      "stickyBombsKills": 8,
+      "scopedCriticalHits": 5
+    },
+    "teams": [15217, 15188, 17763]
+  },
+  "2023-12-22": {
+    "stats": {
+      "timePlayed": 51775,
+      "eliminations": 903,
+      "soloKills": 45
+    },
+    "teams": [15308, 15247, 15204]
+  },
+  "2023-12-23": {
+    "stats": {
+      "timePlayed": 56717,
+      "timeSpentOnFire": 4401,
+      "enemiesSlept": 150
+    },
+    "teams": [15206, 15219, 15201]
+  },
+  "2023-12-24": {
+    "stats": {
+      "kitsuneRushAssists": 82,
+      "deathBlossomKills": 3,
+      "tacticalVisorKills": 1
+    },
+    "teams": [15234, 17791, 15269]
+  },
+  "2023-12-25": {
+    "stats": {
+      "amplificationMatrixAssists": 4,
+      "overhealthProvided": 4255,
+      "finalBlows": 120
+    },
+    "teams": [15204, 15173, 17792]
+  },
+  "2023-12-26": {
+    "stats": {
+      "undefined": null
+    },
+    "teams": [15170, "unknownTeam", 15270]
+  },
+  "2023-12-27": {
+    "stats": {
+      "enemiesHacked": 444,
+      "eliminations": 461,
+      "playersTeleported": 133
+    },
+    "teams": [15341, 17771, 15173]
+  },
+  "2023-12-28": {
+    "stats": {
+      "damageAmplified": 19509,
+      "blizzardKills": 22,
+      "earthshatterStuns": 1
+    },
+    "teams": [17781, 17763, 15287]
+  },
+  "2023-12-29": {
+    "stats": {
+      "kunaiKills": 39,
+      "playersTeleported": 56,
+      "pulseBombsAttached": 43
+    },
+    "teams": [15247, 15247, 17792]
+  },
+  "2023-12-30": {
+    "stats": {
+      "kunaiKills": 134,
+      "earthshatterStuns": 34,
+      "stormArrowKills": 80
+    },
+    "teams": [15269, 15269, 15234]
+  },
+  "2023-12-31": {
+    "stats": {
+      "enemiesSlept": 27,
+      "jaggedBladeKills": 1,
+      "kitsuneRushAssists": 180
+    },
+    "teams": [15173, 15219, 17792]
+  },
+  "2024-01-01": {
+    "stats": {
+      "enemiesEMPd": 16,
+      "ultsUsed": 198,
+      "stormArrowKills": 32
+    },
+    "teams": [15287, 15217, 17781]
+  },
+  "2024-01-02": {
+    "stats": {
+      "stickyBombsKills": 6,
+      "amplificationMatrixAssists": 2,
+      "ultsEarned": 145
+    },
+    "teams": [17771, 15252, 15219]
+  },
+  "2024-01-03": {
+    "stats": {
+      "dragonbladeKills": 25,
+      "heroDamageDone": 530070,
+      "lifetimeEnergyAccumulation": 1946
+    },
+    "teams": [15287, 15219, 15217]
+  },
+  "2024-01-04": {
+    "stats": {
+      "dragonstrikeKills": 12,
+      "blizzardKills": 45,
+      "knockbackKills": 257
+    },
+    "teams": [15165, 15270, 17763]
+  },
+  "2024-01-05": {
+    "stats": {
+      "pulseBombKills": 34,
+      "damageBlockedSojurn": 4379,
+      "earthshatterKills": 2
+    },
+    "teams": [15217, 15341, 17771]
+  },
+  "2024-01-06": {
+    "stats": {
+      "ultsEarned": 105,
+      "inspireUptime": 1646,
+      "ultsUsed": 97
+    },
+    "teams": [15219, 17791, 17763]
+  },
+  "2024-01-07": {
+    "stats": {
+      "enemiesFrozen": 21,
+      "eliminations": 849,
+      "shotsHit": 39355
+    },
+    "teams": [15204, 17762, 15252]
+  },
+  "2024-01-08": {
+    "stats": {
+      "scopedCriticalHitKills": 4,
+      "playersResurrected": 2,
+      "blizzardKills": 11
+    },
+    "teams": [15173, 15341, 15269]
+  },
+  "2024-01-09": {
+    "stats": {
+      "soloKills": 6,
+      "damageAmplified": 6508,
+      "damageTaken": 319484
+    },
+    "teams": [17792, 15287, 15201]
+  },
+  "2024-01-10": {
+    "stats": {
+      "earthshatterStuns": 1,
+      "pulseBombKills": 61,
+      "healingDone": 862986
+    },
+    "teams": [15269, 15247, 15201]
+  },
+  "2024-01-11": {
+    "stats": {
+      "healingDone": 750517,
+      "enemiesFrozen": 34,
+      "eliminations": 1234
+    },
+    "teams": [15263, 15204, 15219]
+  },
+  "2024-01-12": {
+    "stats": {
+      "soloKills": 43,
+      "finalBlows": 516,
+      "criticalHits": 5171
+    },
+    "teams": [15308, 15269, 15188]
+  },
+  "2024-01-13": {
+    "stats": {
+      "kitsuneRushAssists": 103,
+      "abilityDamageDone": 430,
+      "overclockKills": 4
+    },
+    "teams": [15308, 15233, 15270]
+  },
+  "2024-01-14": {
+    "stats": {
+      "ultimatesNegated": 1,
+      "knockbackKills": 55,
+      "stormArrowKills": 23
+    },
+    "teams": [17792, 15341, 15287]
+  },
+  "2024-01-15": {
+    "stats": {
+      "energyMax": 6900,
+      "playersTeleported": 241,
+      "negativeEffectsCleansed": 27
+    },
+    "teams": [15219, 15173, 15252]
+  },
+  "2024-01-16": {
+    "stats": {
+      "dragonbladeKills": 1,
+      "playersTeleported": 119,
+      "enemiesEMPd": 46
+    },
+    "teams": [15234, 15170, 15270]
+  },
+  "2024-01-17": {
+    "stats": {
+      "dragonstrikeKills": 7,
+      "coalescenseHealing": 78,
+      "healingDone": 275319
+    },
+    "teams": [15217, 15170, 17791]
+  },
+  "2024-01-18": {
+    "stats": {
+      "timePlayed": 20066,
+      "amplificationMatrixAssists": 2,
+      "immortalityFieldDeathsPrevented": 1
+    },
+    "teams": [17771, 15270, 15170]
+  },
+  "2024-01-19": {
+    "stats": {
+      "jumpPackKills": 40,
+      "chargedShotKills": 33,
+      "immortalityFieldDeathsPrevented": 11
+    },
+    "teams": [15201, 15217, 17791]
+  },
+  "2024-01-20": {
+    "stats": {
+      "criticalHits": 5171,
+      "stormArrowKills": 42,
+      "enemiesSlept": 55
+    },
+    "teams": [15188, 15247, 15341]
+  },
+  "2024-01-21": {
+    "stats": {
+      "amplificationMatrixAssists": 14,
+      "blizzardKills": 59,
+      "scopedCriticalHits": 19
+    },
+    "teams": [15165, 15170, 15252]
+  },
+  "2024-01-22": {
+    "stats": {
+      "scopedCriticalHits": 21,
+      "finalBlows": 428,
+      "bioticGrenadeKills": 115
+    },
+    "teams": [15263, 15173, 17762]
+  },
+  "2024-01-23": {
+    "stats": {
+      "shotsHit": 44540,
+      "finalBlows": 221,
+      "deaths": 216
+    },
+    "teams": [15233, 15308, 17771]
+  },
+  "2024-01-24": {
+    "stats": {
+      "chargedShotKills": 49,
+      "heroDamageDone": 530070,
+      "bioticGrenadeKills": 118
+    },
+    "teams": [15217, 15173, 15201]
+  },
+  "2024-01-25": {
+    "stats": {
+      "overhealthProvided": 1215,
+      "playersTeleported": 102,
+      "inspireUptime": 1646
+    },
+    "teams": [17791, 15252, 15247]
+  },
+  "2024-01-26": {
+    "stats": {
+      "abilityDamageDone": 42,
+      "kunaiKills": 20,
+      "eliminations": 653
+    },
+    "teams": [17763, 15263, 15263]
+  },
+  "2024-01-27": {
+    "stats": {
+      "blizzardKills": 23,
+      "scopedHits": 2886,
+      "scopedCriticalHitKills": 19
+    },
+    "teams": [15270, 15269, 17762]
+  },
+  "2024-01-28": {
+    "stats": {
+      "amplificationMatrixAssists": 14,
+      "stormArrowKills": 75,
+      "criticalHits": 8234
+    },
+    "teams": [15219, 15173, 15252]
+  },
+  "2024-01-29": {
+    "stats": {
+      "timeSpentOnFire": 2964,
+      "inspireUptime": 4191,
+      "focusingBeamKills": 25
+    },
+    "teams": [17781, 15204, 15188]
+  },
+  "2024-01-30": {
+    "stats": {
+      "enemiesEMPd": 103,
+      "selfdestructKills": 1,
+      "damageAmplified": 35458
+    },
+    "teams": [15341, 15270, 15206]
+  },
+  "2024-01-31": {
+    "stats": {
+      "chargedShotKills": 33,
+      "overhealthProvided": 1215,
+      "bioticGrenadeKills": 17
+    },
+    "teams": [15269, 15170, 17791]
+  },
+  "2024-02-01": {
+    "stats": {
+      "helixRocketKills": 1,
+      "immortalityFieldDeathsPrevented": 11,
+      "bioticGrenadeKills": 22
+    },
+    "teams": [15206, 15201, 17791]
+  }
+}

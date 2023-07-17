@@ -2,6 +2,7 @@ import { useState, useEffect, useRef, useMemo } from "react";
 import axios from "axios";
 import qs from "qs";
 import { useQuery } from "@tanstack/react-query";
+import gameMap from "./assets/gameMap.json";
 
 interface OwlData {
   currentSegments: string[];
@@ -12,10 +13,6 @@ interface OwlData {
   teams: TeamsObject;
 }
 
-interface SeasonData {
-  teams: TeamData[];
-  players: PlayerData;
-}
 export interface PlayerData {
   id: number;
   teams: Team[];
@@ -111,86 +108,9 @@ function GridPage() {
   }, []);
 
   const { data: owlData } = useQuery<OwlData>({ queryKey: ["owl2"] });
-  const { data: seasonData } = useQuery<SeasonData>({
-    queryKey: ["segments/owl2-2023-regular-tournaments-playoffs"],
-  });
-
-  console.log(owlData);
-
-  const seasonTeams = useMemo(() => {
-    console.log(seasonData);
-    if (seasonData && seasonData?.teams) {
-      console.log(seasonData.teams);
-      const teamsData: TeamsObject = {};
-      seasonData.teams.forEach((team) => {
-        teamsData[team.id] = team;
-      });
-      return teamsData;
-    }
-  }, [seasonData]);
-
-  // TODO: get players for each team
-  // loop through the players, grab the players that apply for each of the 3 teams chosen from seasonData.players.teams[{id}]
-  // grab their season stats from seasonData.players.stats
-  // can also get heroes stats from seasonData.players.heroes
-
-  const availableTeamPlayers = useMemo(() => {
-    if (seasonData && seasonData?.players && cols) {
-      const playersData = seasonData.players;
-      const players = Object.values(playersData);
-      const playersPerTeam = [{}, {}, {}];
-
-      players.forEach((player) => {
-        if (
-          player.teams.find(
-            (teamInfo) => teamInfo?.id && teamInfo.id === cols[0].id
-          )
-        ) {
-          playersPerTeam[0][player.id] = player;
-        }
-        if (
-          player.teams.find(
-            (teamInfo) => teamInfo?.id && teamInfo.id === cols[1].id
-          )
-        ) {
-          playersPerTeam[1][player.id] = player;
-        }
-        if (
-          player.teams.find(
-            (teamInfo) => teamInfo?.id && teamInfo.id === cols[2].id
-          )
-        ) {
-          playersPerTeam[2][player.id] = player;
-        }
-      });
-      return playersPerTeam;
-    }
-  }, [seasonData, cols]);
-  const findAvailableStats = (teamPlayers) => {
-    if (!teamPlayers) return [];
-    const allStats = Object.values(teamPlayers).map(
-      (teamPlayer) => teamPlayer?.stats ?? {}
-    );
-    const statSets = allStats.map((stats) => new Set(Object.keys(stats)));
-
-    // Find the intersection of all stat sets
-    const intersection = statSets.reduce((acc, set) => {
-      return acc;
-    });
-
-    return Array.from(intersection);
-  };
-
-  function getRandomNumbers(length) {
-    const randomNumbers = [];
-    while (randomNumbers.length < 3) {
-      const randomNumber = Math.floor(Math.random() * length);
-      if (!randomNumbers.includes(randomNumber)) {
-        randomNumbers.push(randomNumber);
-      }
-    }
-    return randomNumbers;
-  }
+  // const { data: seasonData } = useQuery<SeasonData>({
+  //   queryKey: ["segments/owl2-2023-regular-tournaments-playoffs"],
+  // });
 
   function camelCaseToReadable(camelCaseString) {
     // Split the camelCaseString into words using regular expression
@@ -204,83 +124,26 @@ function GridPage() {
     return readableString;
   }
 
-  useEffect(() => {
-    if (availableTeamPlayers) {
-      console.log(availableTeamPlayers);
-      const [set1, set2, set3] = availableTeamPlayers.map((teamPlayers) =>
-        findAvailableStats(teamPlayers)
-      );
-      console.log(set1, set2, set3);
-      if (!!!set1.length || !!!set2.length || !!!set3.length) return;
-      // TODO: if one of the available stats is empty, choose another random team to set that col as and try again
-      // TODO: why does one come back empty so often? Im suspecting its trying to find common stats for those players, not aggregate stats for the team
-      // TODO: change all this to per 10 min
-      // pick 3 of the available stats at random, then then assign then to the an object where the key is the stat name, and the value is the highest value of that stat from the available players
+  const currentDate = useMemo(() => {
+    // Function to get the current date in 'YYYY-MM-DD' format
 
-      const intersection = [...set1].filter(
-        (element) => set2.includes(element) && set3.includes(element)
-      );
-
-      const randomIndexes = getRandomNumbers(intersection.length);
-
-      const selectedStats = randomIndexes.map((index) => intersection[index]);
-
-      console.log(selectedStats);
-
-      const highestOfEachStat = availableTeamPlayers.map((teamPlayers) => {
-        const teamStats = {};
-        selectedStats.forEach((stat) => {
-          const highestStat = Object.values(teamPlayers).reduce(
-            (highest, player) => {
-              const playerStat = player?.stats?.[stat] ?? 0;
-              return playerStat > highest ? playerStat : highest;
-            },
-            0
-          );
-          teamStats[stat] = highestStat;
-        });
-        return teamStats;
-      });
-      console.log(highestOfEachStat);
-
-      const bar = {};
-
-      // Iterate through each object in the data array
-      highestOfEachStat.forEach((obj) => {
-        // Iterate through each key-value pair in the object
-        for (const key in obj) {
-          // Check if the key is already present in the highestValues object and update it if the current value is greater
-          if (bar[key] === undefined || obj[key] > bar[key]) {
-            bar[key] = obj[key];
-          }
-        }
-      });
-      console.log(bar);
-      setRows(bar);
-    }
-  }, [availableTeamPlayers]);
+    const today = new Date();
+    const year = today.getFullYear();
+    const month = String(today.getMonth() + 1).padStart(2, "0");
+    const day = String(today.getDate()).padStart(2, "0");
+    return `${year}-${month}-${day}`;
+  }, []);
 
   useEffect(() => {
-    if (seasonTeams && !rows && !cols) {
-      const teamsData: TeamsObject = seasonTeams;
-      const teamInfo = Object.values(teamsData);
-
-      // Shuffle the team IDs to get a random order
-      const shuffledTeamIds = teamInfo
-        .filter((teamInfo) => {
-          return !!teamInfo?.logo;
-        })
-        .sort(() => Math.random() - 0.5);
-
-      // Pick the first 3 teams for state 1
-      const colsSelectedTeams = shuffledTeamIds.slice(0, 3);
-      setCols(colsSelectedTeams);
-
-      // Pick the next 3 teams for state 2
-      // const rowsSelectedTeams = shuffledTeamIds.slice(3, 6);
-      // setRows(rowsSelectedTeams);
+    if (currentDate && gameMap && owlData) {
+      const todaysGame = gameMap[currentDate];
+      setRows(todaysGame.stats);
+      setCols(todaysGame.teams.map((teamId) => owlData.teams[teamId]));
     }
-  }, [seasonTeams]);
+  }, [currentDate, gameMap, owlData]);
+
+  console.log(gameMap);
+  console.log(currentDate);
 
   const LoadingSpinner = () => (
     <div role="status">
@@ -326,7 +189,7 @@ function GridPage() {
             <div>
               <div className="flex justify-evenly sm:justify-start">
                 <div className="owl-logo w-20 sm:w-36 md:w-48 flex justify-center items-center"></div>
-                {Object.values(cols ?? {}).map((teamData) => (
+                {cols.map((teamData) => (
                   <div
                     className="w-20 sm:w-36 md:w-48 flex justify-center items-center px-3 pb-1"
                     key={teamData.id}
