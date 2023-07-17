@@ -142,9 +142,6 @@ function GridPage() {
     }
   }, [currentDate, gameMap, owlData]);
 
-  console.log(gameMap);
-  console.log(currentDate);
-
   const LoadingSpinner = () => (
     <div role="status">
       <svg
